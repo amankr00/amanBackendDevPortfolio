@@ -9,7 +9,9 @@ npm install
 ## Customize your portfolio
 
 - Update text/links/projects in `src/data/portfolio.js`
-- Replace the profile image at `public/profile.svg` (keep the same filename, or update `profilePhotoUrl`)
+- Profile photo:
+  - Easiest: put a photo at `public/profile.png` (or `.jpg` / `.jpeg` / `.webp`) and update `profilePhotoUrl` in `src/data/portfolio.js`
+  - If you want an SVG file: put the photo in `public/` as above, then run `npm run profile:svg` to generate `public/profile.svg` (the site already points to `/profile.svg`)
 
 ### Dev server
 

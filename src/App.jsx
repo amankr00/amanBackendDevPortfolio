@@ -81,7 +81,7 @@ export default function App() {
               <div className="heroBadge" aria-label="Status">
                 <div className="heroBadgeTitle">Backend Focus</div>
                 <div className="heroBadgeBody">
-                  APIs · Databases · Queues · Observability
+                  Node.js · Express.js · MongoDB · Cloudflare
                 </div>
               </div>
             </div>

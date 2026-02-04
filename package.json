@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "nodemon",
+    "profile:svg": "node scripts/make-profile-svg.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
